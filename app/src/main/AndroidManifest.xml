@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyUpozilla"
         tools:targetApi="31">
+        <activity
+            android:name=".fire_service"
+            android:exported="false" />
+        <activity
+            android:name=".web_view"
+            android:exported="false" />
+        <activity
+            android:name=".video_page"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
