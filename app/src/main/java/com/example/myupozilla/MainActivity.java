@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    LinearLayout video;
+    LinearLayout video,pouro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         video = findViewById(R.id.video);
+        pouro = findViewById(R.id.pouro);
 
 
 
@@ -29,5 +30,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(myIntent);
             }
         });
+        pouro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MainActivity.this,pouro.class);
+                startActivity(myIntent);
+            }
+        });
+
     }
 }

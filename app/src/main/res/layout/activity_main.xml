@@ -55,7 +55,8 @@
                         android:layout_height="60dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/hospital01"/>
+                        android:src="@drawable/hospital01"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -200,14 +201,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/fireservice" />
+                        android:src="@drawable/clinic" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="6dp"
-                        android:text="ফায়ার সার্ভিস"
+                        android:text="ডায়াগনিস্টিক সেন্টার"
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -322,7 +323,7 @@
 
             </LinearLayout>
 
-            <!--            4th row -->
+            <!--            5th row -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -347,16 +348,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/admin"
-                        android:padding="8dp"
-                        />
+                        android:src="@drawable/fireservice" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="6dp"
-                        android:text="প্রশাসন"
+                        android:text="ফায়ার সার্ভিস"
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -398,6 +397,317 @@
 
 
             </LinearLayout>
+
+            <!--            6th row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+                <!--                for image and text-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_design"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/police"
+                        android:padding="4dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="6dp"
+                        android:text="থানা"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <!--                for image and text-->
+                <LinearLayout
+                    android:id="@+id/video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_design"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/upozilla"
+                        android:padding="4dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="3dp"
+                        android:text="উপজেলা পরিষদ"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <!--            7th row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+                <!--                for image and text-->
+
+                <!--                for image and text-->
+                <LinearLayout
+                    android:id="@+id/pouro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_design"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/pou" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="6dp"
+                        android:text="পৌরসভা"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_design"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/union" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="3dp"
+                        android:text="ইউনিয়ন পরিষদ"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <!--            7th row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+                <!--                for image and text-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_design"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/place"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="6dp"
+                        android:text="দর্শনীয় স্থান"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <!--                for image and text-->
+                <LinearLayout
+                    android:id="@+id/video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_design"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/school" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="3dp"
+                        android:text="শিক্ষা প্রতিষ্ঠান"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <!--            7th row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+                <!--                for image and text-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_design"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/organization" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="6dp"
+                        android:text="সামাজিক সংগঠন"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <!--                for image and text-->
+                <LinearLayout
+                    android:id="@+id/video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_design"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/about"
+                        android:padding="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="3dp"
+                        android:text="যোগাযোগ"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
 
 
 
